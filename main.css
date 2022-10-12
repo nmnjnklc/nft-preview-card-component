@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: #8bacda;
+    font-weight: 300;
+}
+
+body {
+    background-color: #0d192b;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #14253d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.44rem;
+    border-radius: 16px;
+    width: 22rem;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.33rem;
+    padding-bottom: 1.33rem;
+}
+
+.product-image {
+    width: 19.12rem;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price, .time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .44rem;
+}
+
+.price img, .time img {
+    height: 18px;
+}
+
+.price p{
+    color: #00fff7;
+    font-weight: 600;
+}
+
+.price p, .time p {
+    font-size: 16px;
+}
+
+.time p {
+    font-weight: 400;
+}
+
+.user-details {
+    border-top: 1px solid #2f415b;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.user-details .user-image {
+    width: 2.66rem;
+    height: 2.66rem;
+    border-radius: 99px;
+    border: 1px solid #fff;
+    background-image: url(./images/image-avatar.png);
+    background-size: cover;
+}
+
+.user-info span {
+    color: #fff;
+}
